@@ -1,0 +1,40 @@
+.button {
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: var(--smaller-font-size);
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding: 1rem 2.25rem;
+    border: 1px solid var(--white-color);
+    background-color: var(--white-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.button_color_primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.button_color_primary:hover {
+    background-color: var(--primary-color-alt);
+    border-color: var(--primary-color-alt);
+}
+
+.button_color_white {
+    background-color: var(--body-bg-color);
+    border-color: var(--body-bg-color);
+    color: var(--primary-color);
+}
+
+.button_color_white:hover {
+    background-color: hsl(24, 100%, 97%);
+    border-color: hsl(24, 100%, 97%);
+}
+
+.button_size_small {
+    padding: 0.75rem 1.5rem;
+}

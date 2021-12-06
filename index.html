@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- FONTAWESOME -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- /FONTAWESOME -->
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Noto+Serif:ital@1&display=swap"
+        rel="stylesheet">
     <!-- /FONTS -->
 
     <!-- STYLES -->
@@ -24,72 +27,152 @@
 </head>
 
 <body>
-    <div>
-        <div>
-            <div>
-                <div>
+    <div class="header-top">
+        <div class="header-top__content wrapper">
+            <div class="header-top__left">
+                <div class="header-top__text-container">
                     <span>Siguenos</span>
                 </div>
-                <div>
-                    <div>
-                        <span><i class="fab fa-facebook-f"></i></span>
+                <div class="social-network">
+                    <div class="social-network__icon-container">
+                        <a href="/">
+                            <span class="social-network__icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </span>
+                        </a>
                     </div>
-                    <div>
-                        <span><i class="fab fa-youtube"></i></span>
+                    <div class="social-network__icon-container">
+                        <a href="/">
+                            <span class="social-network__icon">
+                                <i class="fab fa-youtube"></i>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <span><i class="fas fa-phone"></i></span>
+            <div class="header-top__right">
+                <div class="social-network">
+                    <div class="social-network__icon-container">
+                        <span class="social-network__icon">
+                            <i class="fas fa-phone"></i>
+                        </span>
                     </div>
                 </div>
-                <div>
+                <div class="header-top__text-container">
                     <span>Llamanos +51 934 778 878</span>
                 </div>
             </div>
         </div>
     </div>
-    <header>
-        <div>
-            <div>
+    <header class="header">
+        <div class="header__content wrapper">
+            <div class="header__group">
                 <div>
                     <!-- left -->
                 </div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="/"><span>Inicio</span></a>
+                <nav class="main-menu">
+                    <ul class="main-menu__content">
+                        <li class="main-menu__item">
+                            <a href="/" class="main-menu__link">
+                                <span>Inicio</span>
+                            </a>
                         </li>
-                        <li>
-                            <a href="/"><span>Conócenos</span></a>
+                        <li class="main-menu__item">
+                            <a href="/" class="main-menu__link">
+                                <span>Conocenos</span>
+                            </a>
+                            <ul class="main-sub-menu">
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Historia</span>
+                                    </a>
+                                </li>
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Doctrina</span>
+                                    </a>
+                                </li>
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Ubicanos</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
-                        <li>
-                            <a href="/"><span>Paginas</span></a>
+                        <li class="main-menu__item">
+                            <a href="/" class="main-menu__link">
+                                <span>Paginas</span>
+                            </a>
+                            <ul class="main-sub-menu">
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Anexos</span>
+                                    </a>
+                                </li>
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Grupos Familiares</span>
+                                    </a>
+                                </li>
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Ministerios</span>
+                                    </a>
+                                </li>
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Pastores</span>
+                                    </a>
+                                </li>
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Diáconos</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div>
-                <div>
+            <div class="header__logo">
+                <div class="header__logo-container">
                     <a href="/">
-                        <img src="/images/igle-logo_white.png" width='126' height="126" alt="iglesia la hermosa de las asambleas de Dios del perú en lima">
-                        <img src="/images/igle-logo_brown.png" width='126' height="126" alt="iglesia la hermosa de las asambleas de Dios del perú en lima">
+                        <img data-image="white" class="header__logo-image" src="/images/igle-logo_white.png" width='126'
+                            height="126">
+                        <img data-image="brown" class="header__logo-image" src="/images/igle-logo_brown.png" width='126'
+                            height="126" alt="iglesia la hermosa de las asambleas de Dios del perú en lima">
                     </a>
                 </div>
             </div>
-            <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="/"><span>Eventos</span></a>
+            <div class="header__group">
+                <nav class="main-menu">
+                    <ul class="main-menu__content">
+                        <li class="main-menu__item">
+                            <a href="/" class="main-menu__link">
+                                <span>Eventos</span>
+                            </a>
                         </li>
-                        <li>
-                            <a href="/"><span>Quechua</span></a>
+                        <li class="main-menu__item">
+                            <a href="/" class="main-menu__link">
+                                <span>Quechua</span>
+                            </a>
                         </li>
-                        <li>
-                            <a href="/"><span>Contactanos</span></a>
+                        <li class="main-menu__item">
+                            <a href="/" class="main-menu__link">
+                                <span>Contacto</span>
+                            </a>
+                            <ul class="main-sub-menu">
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Consejeria Pastoral</span>
+                                    </a>
+                                </li>
+                                <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Nuevos Creyentes</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </nav>
@@ -100,17 +183,17 @@
         </div>
     </header>
     <main>
-        <div>
-            <div>
-                <h1>
-                    <div>Iglesia Evangélica</div>
-                    <div>La Hermosa</div>
+        <div class="main-banner">
+            <div class="main-banner__content wrapper">
+                <h1 class="main-banner__title">
+                    <div class="main-banner__title-top">Iglesia Evangélica</div>
+                    <div class="main-banner__title-mid">La Hermosa</div>
                 </h1>
-                <p>
-                    Somos una iglesia cristiana de las Asambleas de Dios del Perú con una<br>
-                    trayectoria de mas de 100 años de ministerio.
+                <p class="main-banner__text">
+                    Somos una iglesia cristiana de las Asambleas de Dios del Perú <br>
+                    con una trayectoria de mas de 100 años de ministerio.
                 </p>
-                <a href="/">Ubicanos</a>
+                <a class="button button_color_white" href="/">Ubicanos</a>
             </div>
         </div>
         <section>
@@ -120,7 +203,9 @@
             <h1>section three</h1>
         </section>
     </main>
-    <script src="/scripts/index.js"></script>
+
+    <script src="/scripts/header.js"></script>
+    <script type="module" src="/scripts/index.js"></script>
 </body>
 
 </html>

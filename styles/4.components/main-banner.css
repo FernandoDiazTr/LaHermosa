@@ -1,0 +1,83 @@
+.main-banner {
+    background-image: url('../../images/hiroshi.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    color: var(--white-color);
+    /* animation-name: 'change-image';
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    transition: transform .25s; */
+}
+/* CORREGIR ANIMACION CSS PARA INTERCAMBIO DE IMAGENES */
+/* @keyframes change-image {
+    0% {
+        background-image: url('../../images/hiroshi.jpg');
+        background-position: left;
+    }
+    25% {
+        background-image: url('../../images/teresa.jpg');
+        background-position: right;
+    }
+    50% {
+        background-image: url('../../images/eliseo.jpg');
+        transform: translate(100px, 10px) ;
+    }
+    100% {
+        background-image: url('../../images/abuela.jpg');
+        transform: translate(-100px, -10px) ;
+    }
+} */
+
+.main-banner::before {
+    content: '';
+    display: block;
+    background-color: hsla(24, 100%, 93%,.15);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main-banner__content {
+    position: relative;
+    height: 100%;
+    padding-top: calc(var(--header-top-size) + var(--header-size));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+}
+
+.main-banner__title {
+    margin-bottom: 0;
+}
+
+.main-banner__title-top {
+    font-style: italic;
+    font-family: var(--aux-font);
+    color: var(--secondary-color-alt);
+    font-size: var(--h4-font-size);
+    line-height: var(--h4-font-size);
+    margin-bottom: .75rem;
+    text-align: center;
+}
+
+.main-banner__title-mid {
+    color: var(--white-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .75rem;
+    font-size: 6rem;
+    line-height: 6rem;
+}
+
+.main-banner__text {
+    text-align: center;
+    font-size: var(--big-font-size);
+}

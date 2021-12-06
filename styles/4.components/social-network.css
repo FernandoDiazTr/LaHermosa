@@ -1,0 +1,20 @@
+.social-network {
+    display: flex;
+}
+
+.social-network__icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-network__icon {
+    cursor: pointer;
+    color: inherit;
+    padding: .5rem;
+}
+
+.social-network__icon:hover {
+    transition: color .25s;
+    color: var(--secondary-color);
+}

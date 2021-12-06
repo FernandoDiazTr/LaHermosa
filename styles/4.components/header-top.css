@@ -1,0 +1,22 @@
+.header-top {
+    position: relative;
+    z-index: var(--z-normal);
+    height: var(--header-top-size);
+    border-bottom: 1px solid var(--very-soft-grey);
+}
+
+.header-top__content {
+    display: flex;
+    justify-content: space-between;
+    color: var(--body-bg-color);
+    font-size: var(--small-font-size);
+}
+
+.header-top__left, .header-top__right {
+    display: flex;
+}
+
+.header-top__text-container {
+    display: flex;
+    align-items: center;
+}

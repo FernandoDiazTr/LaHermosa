@@ -1,0 +1,29 @@
+.main-menu {
+    
+}
+
+.main-menu__content {
+    height: 100%;
+    display: flex;
+}
+
+.main-menu__item {
+    position: relative;
+}
+
+.main-menu__link {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+    padding: 0 1.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: var(--smaller-font-size);
+    letter-spacing: 1px;
+}
+
+.main-menu__link:hover {
+    color: var(--secondary-color);
+    transition: color .25s;
+}

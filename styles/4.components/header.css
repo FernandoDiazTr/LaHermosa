@@ -1,0 +1,32 @@
+.header {
+    position: relative;
+    z-index: var(--z-normal);
+    color: var(--body-bg-color);
+    height: var(--header-size);
+}
+
+.header__content {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+}
+
+.header__group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo-container {
+    height: 5rem;
+}
+
+.header__logo-image {
+    display: inline-block;
+    object-fit: contain;
+    height: 100%;
+}

@@ -1,3 +1,13 @@
 /*estilos para todos los componentes que se usaran en las paginas*/
 
+/*Generic*/
 @import url('./button.css');
+@import url('./wrapper.css');
+@import url('./social-network.css');
+
+/*Header*/
+@import url('./header-top.css');
+@import url('./header.css');
+@import url('./main-menu.css');
+@import url('./main-sub-menu.css');
+@import url('./main-banner.css');

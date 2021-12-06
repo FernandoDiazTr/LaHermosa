@@ -1,0 +1,28 @@
+.main-sub-menu {
+    min-width: 100%;
+    display: none;
+    position: absolute;
+    padding: 1rem 0;
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+.main-menu__item:hover>.main-sub-menu {
+    display: block;
+}
+
+.main-sub-menu__item {}
+
+.main-sub-menu__link {
+    white-space: nowrap;
+    font-style: italic;
+    font-family: var(--aux-font);
+    font-size: var(--small-font-size);
+    display: inline-block;
+    padding: .5rem 1.5rem;
+}
+
+.main-sub-menu__link:hover {
+    transition: color .25s;
+    color: var(--secondary-color);
+}

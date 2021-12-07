@@ -1,0 +1,5 @@
+/*paddint-top para rellene el espacio dejado por el banner (absolute)*/
+
+.main {
+    padding-top: calc(100vh - calc(var(--header-top-size) + var(--header-size)));
+}

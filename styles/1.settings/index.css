@@ -20,12 +20,16 @@
     --body-font: 'Montserrat', sans-serif;
     --aux-font: 'Noto Serif', sans-serif;
 
+    /*font weights Montserrat: 400,500,600 */
+    /*font style Noto: italic*/
+
     /* GENERIC SIZES */
     --title-line-height: 1.3;
     --body-line-height: 1.6;
     --max-width: 1200px;
     --header-top-size: 2.25rem;
     --header-size: 6rem;
+    --section-padding-size: 4rem;
     /* header */
     /*...*/
 

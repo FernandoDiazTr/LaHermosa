@@ -54,18 +54,32 @@
     row-gap: 1.5rem;
 }
 
+@media only screen and (max-width: 1023px) {
+    .main-banner__content {
+        padding-top: var(--header-size);
+    }
+}
+
 .main-banner__title {
     margin-bottom: 0;
+    text-align: center;
 }
 
 .main-banner__title-top {
-    font-style: italic;
     font-family: var(--aux-font);
-    color: var(--secondary-color-alt);
+    font-style: italic;
+    text-transform: none;
     font-size: var(--h4-font-size);
-    line-height: var(--h4-font-size);
+    font-weight: 400;
+    color: var(--secondary-color-alt);
+    line-height: 1;
     margin-bottom: .75rem;
-    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-banner__title-top {
+        font-size: var(--normal-font-size);
+    }
 }
 
 .main-banner__title-mid {
@@ -74,7 +88,14 @@
     text-transform: uppercase;
     letter-spacing: .75rem;
     font-size: 6rem;
-    line-height: 6rem;
+    line-height: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-banner__title-mid {
+        font-size: var(--h1-font-size);
+        font-weight: 600;
+    }
 }
 
 .main-banner__text {

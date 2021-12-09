@@ -1,0 +1,17 @@
+.contact-list {
+    font-size: var(--small-font-size);
+}
+
+.contact-list__item {
+    margin-bottom: .25rem;
+}
+
+.contact-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.contact-list i[class*='fa'] {
+    display: inline-block;
+    margin-right: .75rem;
+    color: var(--secondary-color);
+}

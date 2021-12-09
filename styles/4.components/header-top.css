@@ -5,6 +5,12 @@
     border-bottom: 1px solid var(--very-soft-grey);
 }
 
+@media only screen and (max-width: 1023px) {
+    .header-top {
+        display: none;
+    }
+}
+
 .header-top__content {
     display: flex;
     justify-content: space-between;

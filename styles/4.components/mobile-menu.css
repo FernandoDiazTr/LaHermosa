@@ -1,0 +1,73 @@
+/*Refactorizar, usar solo una clase mobile-menu__item
+  para menus y submenus en movil.
+  Codigo redundante*/
+
+.mobile-menu {
+    padding-top: var(--header-size);
+    position: fixed;
+    z-index: var(--z-back);
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 200vw;
+    transition: left .75s;
+}
+
+.mobile-menu_open {
+    left: 0;
+}
+
+.mobile-menu__content {
+    overflow-y: auto;
+    background-color: var(--body-bg-color);
+    height: 100%;
+}
+
+.mobile-menu__item {
+    position: relative;
+    border-bottom: 1px solid var(--very-soft-grey);
+}
+
+.mobile-menu__link {
+    cursor: pointer;
+    padding: 1rem .5rem;
+    font-weight: 500;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: var(--big-font-size);
+}
+
+.mobile-menu__sub-menu {
+   display: none;
+}
+
+.mobile-menu__sub-menu_open {
+    display: block;
+}
+
+.mobile-menu__sub-menu-content {
+    
+}
+
+.mobile-menu__sub-menu-item {
+    position: relative;
+    border-top: 1px solid var(--very-soft-grey);
+}
+
+.mobile-menu__sub-menu-link {
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: var(--big-font-size);
+    padding: 1rem .5rem 1rem 2.5rem;
+    width: 100%;
+}
+
+.mobile-menu__sub-menu-link_size_small {
+    font-weight: 400;
+    font-size: var(--normal-font-size);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}

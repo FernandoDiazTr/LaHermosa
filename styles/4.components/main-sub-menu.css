@@ -11,18 +11,34 @@
     display: block;
 }
 
-.main-sub-menu__item {}
+.main-sub-menu__item {
+    position: relative;
+}
+
+.main-sub-menu__item:hover > .main-sub-menu {
+    display: block;
+    top: 0;
+    left: 100%;
+}
+
+.main-sub-menu__item:hover > .main-sub-menu__link {
+    transition: color .25s;
+    color: var(--secondary-color);
+}
 
 .main-sub-menu__link {
     white-space: nowrap;
     font-style: italic;
     font-family: var(--aux-font);
     font-size: var(--small-font-size);
-    display: inline-block;
-    padding: .5rem 1.5rem;
+    padding: .35rem 1.5rem;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
 }
 
-.main-sub-menu__link:hover {
-    transition: color .25s;
-    color: var(--secondary-color);
+.main-sub-menu__link [class*='fa'] {
+    display: inline-block;
+    margin-left: 1rem;
 }

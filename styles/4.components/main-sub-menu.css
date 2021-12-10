@@ -2,9 +2,11 @@
     min-width: 100%;
     display: none;
     position: absolute;
+    z-index: var(--z-front);
     padding: 1rem 0;
     background-color: var(--body-bg-color);
     color: var(--text-color);
+    border: 1px solid var(--very-soft-grey);
 }
 
 .main-menu__item:hover>.main-sub-menu {

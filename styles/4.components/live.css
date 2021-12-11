@@ -1,0 +1,42 @@
+.live {
+    background-image: url('/images/envivo.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px){
+    .live {
+        background-position: -250px top;
+    }
+}
+
+.live::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-color-alt-trans);
+}
+
+.live__content {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: var(--white-color);
+}
+
+.live__content h2 {
+    text-shadow: 0 0 2px rgba(0, 0, 0, .5)
+}
+
+.live__paragraph {
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-shadow: 0 0 3px rgba(0, 0, 0, .75);
+    margin-bottom: 1rem;
+}

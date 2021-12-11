@@ -14,6 +14,7 @@
     --normal-grey: hsl(180, 2%, 68%);
     --soft-grey: hsl(180, 2%, 78%);
     --very-soft-grey: hsl(180, 2%, 88%);
+    --secondary-color-alt-trans: hsla(24, 100%, 93%,.15);
 
     /* FONTS */
     --title-font: 'Montserrat', sans-serif;

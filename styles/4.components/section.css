@@ -16,6 +16,10 @@
     }
 }
 
+.section__column_position_second {
+    grid-column: 2 / 3;
+}
+
 .section__title-top {
     font-family: var(--aux-font);
     color: var(--secondary-color);
@@ -33,6 +37,10 @@
     .section__title {
         font-size: var(--h2-font-size);
     } 
+}
+
+.section__title_color_white {
+    color: var(--white-color);
 }
 
 .section__title-top_align_left, .section__title_align_left {

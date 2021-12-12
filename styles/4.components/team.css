@@ -1,0 +1,40 @@
+.team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+@media screen and (max-width:1023px) {
+    .team {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:768px) {
+    .team {
+        grid-template-columns: 1fr;
+    }
+}
+
+.team__item-image {
+    display: block;
+    width: 100%;
+    height: min-content;
+    object-fit: contain;
+}
+
+.team__item-content {
+    padding-top: 1rem;
+}
+
+.team__item-title {
+    font-size: var(--h4-font-size);
+}
+
+.team__item-role {
+    font-size: var(--small-font-size);
+    font-family: var(--aux-font);
+    font-style: italic;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}

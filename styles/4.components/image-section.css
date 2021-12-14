@@ -25,7 +25,6 @@
 }
 
 .image-section__content {
-    background-color: var(--secondary-color-alt);
     padding: 2rem;
     display: flex;
     flex-direction: column;

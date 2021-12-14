@@ -1,0 +1,33 @@
+.ministry-article {
+    position: relative;
+}
+
+.ministry-article__image {
+    display: block;
+    width: 100%;
+    height: min-content;
+}
+
+.ministry-article__content {
+    padding-top: 1rem;
+}
+
+.ministry-article__title {
+    font-size: var(--h4-font-size);
+}
+
+.ministry-article__name {
+    font-size: var(--small-font-size);
+    font-family: var(--aux-font);
+    font-style: italic;
+    color: var(--secondary-color);
+}
+
+.ministry-article__link {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,105 @@
+.home-events {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    .home-events {
+        grid-template-columns: 1fr;
+    }
+}
+
+.home-events__item {
+    display: grid;
+    grid-template-columns: 44% 56%;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-events__item {
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content;
+    }
+}
+
+.home-events__item-image {
+    display: block;
+    width: 100%;
+    height: min-content;
+}
+
+.home-events__item-content {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .home-events__item-content {
+        padding-left: 0;
+        padding-top: 1.5rem;
+    }
+}
+
+.home-events__item-date {
+    margin-bottom: .4rem;
+    font-size: var(--small-font-size);
+    line-height: 1;
+}
+
+.home-events__item-date [class*='fa'] {
+    color: var(--secondary-color);
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+.home-events__item-date-text {
+    display: inline-block;
+    margin-right: .75rem;
+}
+
+.home-events__item-title {
+    font-size: var(--h4-font-size);
+}
+
+.home-events__item-title:hover {
+    color: #8d6b65;
+    transition: color .25s;
+} 
+
+.home-events__item-description {
+    margin-bottom: 1rem;
+}
+
+.home-events__item-link {
+    font-family: var(--title-font);
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: var(--smaller-font-size);
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.home-events__item-link::before {
+    content: '';
+    display: inline-block;
+    border-top: 1px solid var(--primary-color);
+    width: .5rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.home-events__item-link-text {
+    background-color: var(--body-bg-color);
+    display: inline-block;
+    padding-left: .1rem;
+    transform: translateX(1rem);
+    transition: transform .25s;
+}
+
+.home-events__item-link:hover .home-events__item-link-text {
+    transform: translateX(0);
+}

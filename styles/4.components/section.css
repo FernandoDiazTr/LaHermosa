@@ -3,6 +3,10 @@
     padding-bottom: var(--section-padding-size);
 }
 
+.section_bg-color_secondary-alt {
+    background-color: var(--secondary-color-alt);
+}
+
 .section__content {
     display: flex;
     display: grid;

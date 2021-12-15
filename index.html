@@ -106,6 +106,11 @@
                             </a>
                             <ul class="main-sub-menu">
                                 <li class="main-sub-menu__item">
+                                    <a href="/" class="main-sub-menu__link">
+                                        <span>Servicios</span>
+                                    </a>
+                                </li>
+                                <li class="main-sub-menu__item">
                                     <a role="button" class="main-sub-menu__link">
                                         <span>Anexos</span><i class="fas fa-angle-right"></i>
                                     </a>
@@ -353,7 +358,7 @@
         <div class="header__mobile">
             <div class="header__mobile-content  wrapper">
                 <a href="/">
-                    <div class="logo">
+                    <div class="logo logo_size_mobile">
                         <img class="logo__image" height="110" width="300" src="/images/logo-horizontal.png">
                     </div>
                 </a>
@@ -398,6 +403,11 @@
                         </a>
                         <div class="mobile-menu__sub-menu">
                             <ul class="mobile-menu__sub-menu-content">
+                                <li class="mobile-menu__sub-menu-item">
+                                    <a href="/" class="mobile-menu__sub-menu-link">
+                                        <span>Servicios</span>
+                                    </a>
+                                </li>
                                 <li class="mobile-menu__sub-menu-item">
                                     <a role="button" class="mobile-menu__sub-menu-link">
                                         <span>Anexos</span><i class="fas fa-caret-down"></i>
@@ -1016,7 +1026,7 @@
                 </div>
             </div>
         </section>
-        <section class="section section_bg-color_secondary-alt">
+        <section class="section">
             <div class="wrapper">
                 <div class="section__title-top section__title-top_align_left">Te esperamos</div>
                 <h2 class="section__title section__title_align_left section__title_margin-bottom_big">Próximos Eventos</h2>
@@ -1030,8 +1040,8 @@
                     </header>
                     <div class="home-events__item-content">
                         <div class="home-events__item-date">
-                            <span class="far fa-calendar-alt"></span><span class="home-events__item-date-text">18.12.2021</span>
-                            <span class="far fa-clock"></span><span class="home-events__item-date-text">07:00pm</span>
+                            <span class="far fa-calendar-alt"></span><span class="home-events__item-date-text"><time datetime="2021-12-18" >18.12.2021</time></span>
+                            <span class="far fa-clock"></span><span class="home-events__item-date-text"><time datetime="19:00">07:00pm</time></span>
                         </div>
                         <h3 class="home-events__item-title"><a href="/">Agradecidos</a></h3>
                         <p class="home-events__item-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
@@ -1087,7 +1097,185 @@
             </div>
         </section>
     </main>
-
+    <footer class="main-footer">
+        <div class="section">
+            <div class="main-footer__content wrapper">
+                <div class="main-footer__contact">
+                    <h2 class="main-footer__title">Conócenos</h2>
+                    <div class="logo logo_size_desktop">
+                        <img class="logo__image" height="110" width="300" src="/images/logo-horizontal.png" alt="iglesia evangelica la hermosa">
+                        <a href="/"></a>
+                    </div>
+                    <p>Cultos, ministerios, anexos, grupos familiares, escuela biblica, seminario biblico y mucho más. Te esperamos.</p>
+                    <address>
+                        <ul class="contact-list">
+                            <li class="contact-list__item">
+                                <span><i class="fas fa-phone"></i>01 123 4567</span>
+                            </li>
+                            <li class="contact-list__item">
+                                <a href="https://goo.gl/maps/QKmtSnW392B64FLX8" target="_blank">
+                                    <span>
+                                        <i class="fas fa-map-marker-alt"></i>Av. Nicolas Ayllon 3610 - Ate
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="contact-list__item">
+                                <span><i class="fas fa-envelope"></i>contacto@iglesialahermosa.pe</span>
+                            </li>
+                        </ul>
+                    </address>
+                    <div class="social-network">
+                        <div class="social-network__icon-container">
+                            <a href="/">
+                                <span class="social-network__icon social-network__icon_padding_only-right">
+                                    <i class="fab fa-facebook-f"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="social-network__icon-container">
+                            <a href="/">
+                                <span class="social-network__icon social-network__icon_padding_only-right">
+                                    <i class="fab fa-youtube"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-footer__list-group">
+                    <div>
+                        <h3>Nosotros</h3>
+                        <ul class="main-footer__links">
+                            <li>
+                                <a class="main-footer__links-link" href="/"><span>Historia</span></a>
+                            </li>
+                            <li>
+                                <a class="main-footer__links-link" href="/"><span>Doctrina</span></a>
+                            </li>
+                            <li>
+                                <a class="main-footer__links-link" href="/"><span>Ubicanos</span></a>
+                            </li>
+                            <li>
+                                <a class="main-footer__links-link" href="/"><span>Pastores</span></a>
+                            </li>
+                            <li>
+                                <a class="main-footer__links-link" href="/"><span>Diaconos</span></a>
+                            </li>
+                            <li>
+                                <a class="main-footer__links-link" href="/"><span>Servicios (Cultos)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Instituciones</h3>
+                        <ul class="main-footer__links">
+                            <li>
+                                <a class="main-footer__links-link" href="/"><span>Escuela Biblica - ESBYD</span></a>
+                            </li>
+                            <li>
+                                <a class="main-footer__links-link" href="/"><span>Seminario Biblico - SEBLAH</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <h3>Anexos</h3>
+                    <ul class="main-footer__links">
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Paraiso</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Carapongo</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Los Geranios</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Villa Union</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Estrella</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Santa Maria Ate</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Santa Maria Huachipa</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Nueva Gales</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Jicamarca</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Campoy</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Amauta</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Lahuaytambo</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Huandoy</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Santa Rosa de Quives</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Ministerios</h3>
+                    <ul class="main-footer__links">
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Adulto Mayor</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Alabanza - MDA</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Ayuda Social - MYSYPROS</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Comunicaciones</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Consolacion</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Familia</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Intersesion (Oracion)</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Jovenes - JP</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Adolescentes - MINAD</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Nuevos Creyentes - MICER</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Misiones</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Niños - CDR</span></a>
+                        </li>
+                        <li>
+                            <a class="main-footer__links-link" href="/"><span>Ujieres</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-footer__copyright">
+            <div class="wrapper">
+                <p class="main-footer__copyright-text">© 2019 Qode Interactive, All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/libs/owlcarousel/dist/owl.carousel.min.js"></script>

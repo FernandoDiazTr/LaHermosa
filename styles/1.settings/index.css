@@ -5,8 +5,8 @@
     /* COLOR */
     --primary-color: hsl(356, 24%,13%);
     --primary-color-alt: hsl(358, 23%, 23%);
-    --secondary-color: hsl(13, 46%, 74%);
-    --secondary-color-alt: hsl(24, 100%, 97%);
+    --secondary-color: hsl(13, 32%, 66%);
+    --secondary-color-alt: hsl(20, 37%, 97%);
     --text-color: hsl(0, 4%, 52%);
     --body-bg-color: hsl(204, 100%, 99%);
     --white-color: hsl(0, 50%, 100%);

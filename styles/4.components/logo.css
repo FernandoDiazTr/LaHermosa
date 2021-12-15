@@ -1,6 +1,15 @@
 .logo {
+    position: relative;
+}
+
+.logo_size_mobile {
     height: 48px;
     width: 140px;
+}
+
+.logo_size_desktop {
+    height: 63px;
+    width: 175px;
 }
 
 .logo__image {

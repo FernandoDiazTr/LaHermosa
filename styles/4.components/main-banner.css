@@ -69,6 +69,7 @@
     font-family: var(--aux-font);
     font-style: italic;
     text-transform: none;
+    letter-spacing: normal;
     font-size: var(--h4-font-size);
     font-weight: 400;
     color: var(--secondary-color-alt);

@@ -17,11 +17,8 @@
     line-height: 1.1;
 }
 
-.ministry-article__name {
+.ministry-article__description {
     font-size: var(--small-font-size);
-    font-family: var(--aux-font);
-    font-style: italic;
-    color: var(--secondary-color);
 }
 
 .ministry-article__link {

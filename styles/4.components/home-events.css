@@ -61,6 +61,7 @@
 
 .home-events__item-title {
     font-size: var(--h4-font-size);
+    line-height: 1.1;
 }
 
 .home-events__item-title:hover {
